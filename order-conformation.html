@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="order-confirmation">
+        <h1>Thank You for Your Order!</h1>
+        <p>Your order has been placed successfully.</p>
+        <h2>Order Summary</h2>
+        <table class="order-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="order-summary">
+                
+            </tbody>
+        </table>
+        <p class="order-total">Grand Total: $<span id="order-total">0.00</span></p>
+
+        <a href="index.html" class="home-btn">Return to Home</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 E-Commerce Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
